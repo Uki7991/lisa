@@ -1,0 +1,81 @@
+#menu a.active.nav-link {
+    background: #ff4d0e !important;
+}
+#menu a.nav-link:hover {
+    background: #ff4d0e !important;
+}
+#menu a.nav-link {
+    transition: all .3s ease;
+}
+
+.backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+* {
+    font-family: Ubuntu;
+}
+
+.fa-angle-left.slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+}
+.fa-angle-right.slick-arrow {
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    transform: translateY(-50%);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prost {
+
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: #ff4d0e;
+}
+#pills-contact-tab{
+    color: #858383;
+}
+#pills-contact-tab.active{
+    color: black;
+    border-top: 3px solid #ff4d0e;
+    border-top-height: 3px;
+}
+
+.service-image {
+    width: 150px;
+    height: 150px;
+}
+.service-content {
+    margin-left: 0;
+    margin-top: -50px;
+    padding: 70px 1rem 1rem 1rem;
+}
+
+@media (min-width: 576px) {
+    .service-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .service-content {
+        margin-left: -100px;
+        margin-top: 0;
+        padding: 1.5rem 1.5rem 1.5rem 120px;
+    }
+    
+}
