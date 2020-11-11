@@ -222,6 +222,18 @@ tbody tr:hover {
     letter-spacing: .5rem;
 }
 
+.work .work-link {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display:none !important;
+}
+.work:hover .work-link {
+    display: flex !important;
+}
+
 @media (min-width: 576px) {
 
     .h1,h1 {
