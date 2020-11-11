@@ -1,3 +1,102 @@
+.bg-lisa {
+    background-color: #e94e1b !important;
+}
+.text-lisa {
+    color: #e94e1b !important;
+}
+.border-lisa {
+    border-color: #e94e1b !important;
+}
+.btn-lisa {
+    background-color: #e94e1b !important;
+    color: #fff;
+}
+.border-2 {
+    border-width: 2px !important;
+}
+.border.border-dashed {
+    border-style: dashed !important;
+}
+.border-top.border-dashed {
+    border-top-style: dashed !important;
+}
+.border-right.border-dashed {
+    border-right-style: dashed !important;
+}
+.border-bottom.border-dashed {
+    border-bottom-style: dashed !important;
+}
+.border-left.border-dashed {
+    border-left-style: dashed !important;
+}
+
+.w-10 {
+    width: 10% !important;
+}
+
+.bg-gray {
+    background-color: #4b4a4a !important;
+}
+.text-gray {
+    color: #4b4a4a !important;
+}
+.border-gray {
+    border-color: #4b4a4a !important;
+}
+.btn-gray {
+    background-color: #4b4a4a !important;
+    color: #ffffff;
+}
+
+.bg-lisa-secondary {
+    background-color: #747373 !important;
+}
+.text-lisa-secondary {
+    color: #747373 !important;
+}
+.border-lisa-secondary {
+    border-color: #747373 !important;
+}
+.btn-lisa-secondary {
+    background-color: #747373 !important;
+    color: #fff;
+}
+
+.bg-gray-light {
+    background-color: #eae9e9 !important;
+}
+.text-gray-light {
+    color: #eae9e9 !important;
+}
+.border-gray-light {
+    border-color: #eae9e9 !important;
+}
+.btn-gray-light {
+    background-color: #eae9e9 !important;
+    color: #000000;
+}
+
+.bg-gray-lighter {
+    background-color: #f5f4f3 !important;
+}
+.text-gray-lighter {
+    color: #f5f4f3 !important;
+}
+.border-gray-lighter {
+    border-color: #f5f4f3 !important;
+}
+.btn-gray-lighter {
+    background-color: #f5f4f3 !important;
+    color: #000000;
+}
+
+a.text-white:hover {
+    color: #e94e1b !important;
+}
+a.text-dark:hover {
+    color: #e94e1b !important;
+}
+
 #menu a.active.nav-link {
     background: #ff4d0e !important;
 }
@@ -110,4 +209,23 @@ tbody tr:hover {
         padding: 1.5rem 1.5rem 1.5rem 120px;
     }
     
+}
+@media (min-width: 768px) {
+    .service-content {
+        margin-left: 0;
+        margin-top: -50px;
+        padding: 70px 1rem 1rem 1rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .service-content {
+        margin-left: -100px;
+        margin-top: 0;
+        padding: 1.5rem 1.5rem 1.5rem 120px;
+    }
+}
+
+@media (min-width: 1200px) {
+
 }
