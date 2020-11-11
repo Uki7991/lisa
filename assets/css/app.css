@@ -47,18 +47,47 @@
 .link:hover{
     color: #ff4d0e;
 }
-#pills-contact-tab{
+a.nav-link[role=tab]{
     color: #858383;
+    position: relative;
 }
-#pills-contact-tab.active{
+a.nav-link[role=tab].active:before{
+    width: 10px;
+    height: 10px;
+    background: #ff4d0e;
+    display: block;
+    position: absolute;
+    top: -5px;
+    border-radius: 50%;
+    left: 50%;
+    content: '';
+    transform: translateX(-50%);
+}
+a.nav-link[role=tab].active{
     color: black;
-    border-top: 3px solid #ff4d0e;
-    border-top-height: 3px;
+}
+a.nav-link[role=tab]:hover{
+    color: black;
+}
+
+thead {
+    border-bottom: 1px solid black;
+}
+thead tr th {
+    padding: 20px 10px 10px;
+}
+tbody tr td {
+    padding: 20px 10px 10px;
+    border-bottom: 1px dashed #333333;
+}
+tbody tr:hover {
+    background: #eeecec;
 }
 
 .service-image {
     width: 150px;
     height: 150px;
+    object-fit: cover;
 }
 .service-content {
     margin-left: 0;
@@ -66,12 +95,15 @@
     padding: 70px 1rem 1rem 1rem;
 }
 
-@media (min-width: 576px) {
-    .service-image {
-        width: 150px;
-        height: 150px;
-    }
+.h1,h1 {
+    font-size: 1.8rem;
+}
 
+@media (min-width: 576px) {
+
+    .h1,h1 {
+        font-size: 2.5rem;
+    }
     .service-content {
         margin-left: -100px;
         margin-top: 0;
