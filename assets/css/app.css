@@ -1,3 +1,122 @@
+.font-weight-light {
+    font-weight: 300;
+}
+.font-weight-medium {
+    font-weight: 500;
+}
+.font-weight-semibold {
+    font-weight: 600;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+}
+.text-xs {
+    font-size: 12rem;
+}
+.text-sm {
+    font-size: 14px;
+}
+.text-base {
+    font-size: 16px;
+}
+.text-lg {
+    font-size: 18px;
+}
+.text-xl {
+    font-size: 20px;
+}
+.text-xxl {
+    font-size: 22px;
+}
+.text-3xl {
+    font-size: 24px;
+}
+.text-4xl {
+    font-size: 26px;
+}
+.text-5xl {
+    font-size: 28px;
+}
+.text-6xl {
+    font-size: 30px;
+}
+
+.transition-300 {
+    transition: all .3s ease;
+}
+.text-decoration-0 {
+    text-decoration: none!important;
+}
+
+.text-menu {
+    color: #280a0a !important;
+}
+
+.btn-up {
+    border-radius: 5px;
+    background-color: rgb(233, 78, 27);
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    bottom: 5%;
+    right: 10%;
+}
+
+.form-feedback-input {
+    border-radius: 5px;
+    background-color: rgb(234, 233, 233);
+}
+.form-feedback-btn {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(250, 92, 40);
+    border-radius: 5px;
+    background-color: rgb(233, 78, 27);
+    box-shadow: 0px 1px 16px 0px rgba(236, 83, 32, 0.75);
+}
+
+.hover\:text-lisa:hover {
+    color: #ff4d0e !important;
+}
+.hover\:bg-lisa:hover {
+    background-color: #ff4d0e !important;
+}
+
+
+.btn-action {
+    border-radius: 5px;
+    background-color: rgb(233, 78, 27);
+    box-shadow: 0px 1px 9px 0px rgba(225, 104, 64, 0.75);
+}
+.form-feedback {
+    border-radius: 5px;
+    background-color: rgb(245, 244, 243);
+    box-shadow: 0px 4px 25.11px 1.89px rgba(111, 113, 106, 0.75);
+}
+
+
+.line-height-sm {
+    line-height: 80%;
+}
+.line-height-base {
+    line-height: 100%;
+}
+.line-height-lg {
+    line-height: 120%;
+}
+.line-height-xl {
+    line-height: 140%;
+}
+.btn-service {
+    border-radius: 5px;
+    background-color: rgb(168, 167, 166);
+    box-shadow: 0px 1px 6px 0px rgba(233, 78, 27, 0.75);
+}
+.btn-service:hover {
+    background-color: rgb(233, 78, 27);
+}
+
 .bg-lisa {
     background-color: #e94e1b !important;
 }
@@ -90,9 +209,9 @@
     color: #000000;
 }
 
-a.text-white:hover {
-    color: #e94e1b !important;
-}
+/*a.text-white:hover {*/
+/*    color: #e94e1b !important;*/
+/*}*/
 a.text-dark:hover {
     color: #e94e1b !important;
 }
@@ -136,6 +255,9 @@ a.text-dark:hover {
     transform: translateY(-50%);
     padding: 10px;
     cursor: pointer;
+}
+.fa-angle-left.slick-arrow:hover, .fa-angle-right.slick-arrow:hover {
+    color: #ff4d0e;
 }
 
 .prost {
