@@ -108,6 +108,15 @@
 .line-height-xl {
     line-height: 140%;
 }
+.line-height-2xl {
+    line-height: 160%;
+}
+.line-height-3xl {
+    line-height: 180%;
+}
+.line-height-4xl {
+    line-height: 200%;
+}
 .btn-service {
     border-radius: 5px;
     background-color: rgb(168, 167, 166);
@@ -386,6 +395,9 @@ tbody tr:hover {
         margin-left: -100px;
         margin-top: 0;
         padding: 1.5rem 1.5rem 1.5rem 120px;
+    }
+    .text-lg-5xl {
+        font-size: 28px;
     }
 }
 
