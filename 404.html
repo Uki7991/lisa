@@ -18,7 +18,7 @@
     <title>Hello, world!</title>
 </head>
 <body id="app">
-<a href="#app" class="position-fixed btn-up d-flex justify-content-center align-items-center text-decoration-0">
+<a href="#app" class="position-fixed btn-up d-flex justify-content-center align-items-center text-decoration-0 anchor">
     <i class="fa fa-chevron-up fa-lg text-white"></i>
 </a>
 
@@ -362,7 +362,7 @@
 
         })
 
-        $(document).on('click', 'a[href^="#"]', function (event) {
+        $(document).on('click', 'a.anchor[href^="#"]', function (event) {
             event.preventDefault();
 
             $('html, body').animate({
