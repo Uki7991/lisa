@@ -383,9 +383,17 @@ tbody tr:hover {
     background-color: #353434;
     border: none;
     border-radius: 0;
+    padding: 20px 0;
 }
 .second-menu > li > .dropdown-item:hover {
     background-color: #353434;
+}
+.second-menu > li {
+    border-bottom: 1px solid #ffffff1a;
+    padding: 5px 0;
+}
+.second-menu li:last-child {
+    border-bottom: none;
 }
 .second-menu > li > .dropdown-item:focus {
     background-color: #353434;
