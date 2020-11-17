@@ -25,7 +25,9 @@
 
 
 <nav class="navbar px-0 navbar-expand-lg navbar-light bg-light border-top border-bottom border-dashed border-lisa border-2">
-    <div class="container" style="padding-top: 50px; padding-bottom: 10px;">
+    <div class="backdrop" style="z-index: 1; background: rgba(208, 208, 208, .5);"></div>
+    <div class="container position-absolute" style="top: 0;height: 100%;left: 50%;transform: translateX(-50%); background: url('./assets/images/header_back.png');background-repeat: no-repeat;background-position: top left; z-index: 0;"></div>
+    <div class="container position-relative" style="padding-top: 50px; padding-bottom: 10px; z-index: 3;">
         <a class="navbar-brand d-block d-lg-none" href="#">
             <img src="./assets/images/logo1.png" alt="" loading="lazy">
         </a>
@@ -1132,8 +1134,9 @@
     </div>
 </section>
 
-<footer class="py-5 border-top bg-gray text-white">
-    <div class="container">
+<footer class="py-5 border-top bg-gray text-white position-relative">
+    <div class="container position-absolute" style="top: 0;height: 100%;left: 50%;transform: translateX(-50%); background: url('./assets/images/footer_back.png');background-repeat: no-repeat;background-position: bottom right; z-index: 0;"></div>
+    <div class="container position-relative" style="z-index: 3;">
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="mb-4 text-center">
