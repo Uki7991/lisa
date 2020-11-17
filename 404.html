@@ -33,7 +33,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="row align-items-start justify-content-between" style="min-width: 100%;">
+            <div class="row align-items-start justify-content-between" style="min-width: 100%; margin: 0;">
                 <div class="col-12 col-sm-6 col-lg-auto">
                     <div class="d-flex px-4 px-lg-0 justify-content-between align-items-center text-right text-lg-left align-items-lg-start mb-4 mb-lg-0">
                         <img src="./assets/images/phone.png" height="40" alt="">
@@ -101,36 +101,74 @@
 <section class="bg-dark py-0 navbar navbar-expand-xl">
     <div class="container">
         <div class="row align-items-center justify-content-between w-100 text-white">
-            <div class="col-auto order-0 my-2" data-toggle="collapse" data-target="#navbarSecond"
+            <div class="col-auto order-0" data-toggle="collapse" data-target="#navbarSecond"
                  aria-controls="navbarSecond" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-th fa-lg" style="cursor: pointer;"></i>
             </div>
             <div class="collapse order-3 order-lg-1 navbar-collapse" id="navbarSecond">
                 <div class="col-12 col-lg-auto">
                     <ul class="text-uppercase nav" id="menu">
-                        <li class="nav-item">
-                            <a class="nav-link text-light active" href="./index.html">Услуги</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light font-weight-medium text-sm active dropdown-toggle" data-toggle="dropdown" href="./index.html">Услуги <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu second-menu">
+                                <li><a class="dropdown-item text-white hover:text-lisa" href="#">индивидуальный пошив</a></li>
+                                <li><a class="dropdown-item text-white hover:text-lisa" href="#">сложный ремонт</a></li>
+                                <li><a class="dropdown-item text-white hover:text-lisa" href="#">химчистка</a></li>
+                                <li class="has-submenu dropright">
+                                    <a class="dropdown-item text-white hover:text-lisa dropdown-toggle" data-toggle="dropdown" href="#">индивидуальный пошив <i class="fa fa-angle-right"></i></a>
+                                    <div class="dropdown-menu megasubmenu m-0">
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <ul class="list-unstyled">
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 1 </a></li>
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 2 </a></li>
+                                                    <li class="has-submenu dropdown position-relative">
+                                                        <a class="dropdown-item text-dark hover:text-lisa dropdown-toggle" href="#" data-toggle="dropdown"> Dropdown item 3 <i class="fa fa-angle-down"></i></a>
+                                                        <div class="dropdown-menu px-3 border" style="top: 100%; left: 0;">
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                                            cillum dolore eu fugiat nulla pariatur.
+                                                        </div>
+                                                    </li>
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 2 </a></li>
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 6 </a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <ul class="list-unstyled">
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 1 </a></li>
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 2 </a></li>
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 2 </a></li>
+                                                    <li><a class="dropdown-item text-dark hover:text-lisa" href="#"> Dropdown item 6 </a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="">о компании</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="">о компании</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="">ремонт одежды</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="">ремонт одежды</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./news.html">новости</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="./news.html">новости</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./sewing.html">пошив</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="./sewing.html">пошив</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="">вышивка</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="">вышивка</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./works.html">работы</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="./works.html">работы</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./contacts.html">контакты</a>
+                            <a class="nav-link text-light font-weight-medium text-sm" href="./contacts.html">контакты</a>
                         </li>
                     </ul>
                 </div>
@@ -296,14 +334,17 @@
                     Мы в соцсетях:
 
                     <div class="mt-2">
-                        <a href="" class="btn text-white p-0">
-                            <i class="fab fa-telegram fa-lg mr-2"></i>
+                        <a href="" class="btn text-white hover:text-lisa p-0 border border-white hover:border-lisa rounded-circle d-inline-flex justify-content-center align-items-center mr-2" style="width: 40px; height: 40px;">
+                            <i class="fab fa-vk fa-lg"></i>
                         </a>
-                        <a href="" class="btn text-white p-0">
-                            <i class="fab fa-whatsapp fa-lg mr-2"></i>
+                        <a href="" class="btn text-white hover:text-lisa p-0 border border-white hover:border-lisa rounded-circle d-inline-flex justify-content-center align-items-center mr-2" style="width: 40px; height: 40px;">
+                            <i class="fab fa-odnoklassniki fa-lg"></i>
                         </a>
-                        <a href="" class="btn text-white p-0">
-                            <i class="fab fa-viber fa-lg mr-2"></i>
+                        <a href="" class="btn text-white hover:text-lisa p-0 border border-white hover:border-lisa rounded-circle d-inline-flex justify-content-center align-items-center mr-2" style="width: 40px; height: 40px;">
+                            <i class="fab fa-youtube fa-lg"></i>
+                        </a>
+                        <a href="" class="btn text-white hover:text-lisa p-0 border border-white hover:border-lisa rounded-circle d-inline-flex justify-content-center align-items-center mr-2" style="width: 40px; height: 40px;">
+                            <i class="fab fa-instagram fa-lg"></i>
                         </a>
                     </div>
                 </div>
@@ -369,6 +410,7 @@
                 scrollTop: $($.attr(this, 'href')).offset().top
             }, 500);
         });
+
     })
 </script>
 <!-- Option 2: jQuery, Popper.js, and Bootstrap JS

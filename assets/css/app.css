@@ -82,6 +82,9 @@
 .hover\:bg-lisa:hover {
     background-color: #ff4d0e !important;
 }
+.hover\:border-lisa:hover {
+    border-color: #ff4d0e !important;
+}
 
 
 .btn-action {
@@ -216,6 +219,11 @@
 .btn-gray-lighter {
     background-color: #f5f4f3 !important;
     color: #000000;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: none !important;
 }
 
 /*a.text-white:hover {*/
@@ -365,6 +373,51 @@ tbody tr:hover {
     display: flex !important;
 }
 
+.megasubmenu{ padding: 20px 0; }
+
+.second-menu {
+    background-color: #353434;
+    border: none;
+    border-radius: 0;
+}
+.second-menu > li > .dropdown-item:hover {
+    background-color: #353434;
+}
+.second-menu > li > .dropdown-item:focus {
+    background-color: #353434;
+}
+
+li.dropdown:hover > .dropdown-menu, li.dropright:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+.dropright .dropdown-toggle::after {
+    display: none;
+}
+
+.dropright .dropdown-menu {
+    top: 100% ;
+    left: 0;
+}
+
+.dropdown-menu {
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+
+#search-input {
+    top: 0;
+    left: 0;
+    width: 65%;
+    height: 100%;
+    display: none;
+    z-index: 9999;
+}
+
+
 @media (min-width: 576px) {
 
     .h1,h1 {
@@ -398,6 +451,27 @@ tbody tr:hover {
     }
     .text-lg-5xl {
         font-size: 28px;
+    }
+    .dropdown-menu{
+        margin:0;
+    }
+    .dropdown-menu li {
+        position: unset;
+    }
+    .megasubmenu{
+        min-height: 100%;
+        min-width:500px;
+    }
+    .dropright .dropdown-menu {
+        top: 0 ;
+        left: 100%;
+    }
+    #search-input {
+        top: 0;
+        left: 43%;
+        width: 30%;
+        height: 100%;
+        display: none;
     }
 }
 
